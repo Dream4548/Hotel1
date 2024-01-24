@@ -13,13 +13,13 @@
 			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./assets/css/global-header.css" />
-		<link rel="stylesheet" href="./assets/css/global-footer.css" />
-		<link rel="stylesheet" href="./assets/css/accesibility.css">
-		<link rel="stylesheet" href="./assets/css/contact-page.css" />
+		<link rel="stylesheet" href="{% static 'css/global-header.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/global-footer.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/accesibility.css' %}">
+		<link rel="stylesheet" href="{% static 'css/contact-page.css' %}" />
 		<link
 			rel="shortcut icon"
-			href="./assets/img/favicon.webp"
+			href="{% static 'img/favicon.webp' %}"
 			type="image/x-icon"
 		/>
 	</head>
@@ -156,15 +156,15 @@
 					<div class="footer-contact-us">
 						<h3 class="footer-description-title">Contact Us</h3>
 						<p class="footer-description-detail"> 
-							<img src="./assets/img/map-pin.svg" class="footer-description-icon" alt="star hotel location">
+							<img src="{% static 'img/map-pin.svg' %}" class="footer-description-icon" alt="star hotel location">
 	
 							<span>23, Fola Osibo, Lekki Phase 1</span></p>
 						<p class="footer-description-detail">
-							<img src="./assets/img/phone.svg" class="footer-description-icon" alt="star hotels phone number"> 
+							<img src="{% static 'img/phone.svg' %}" class="footer-description-icon" alt="star hotels phone number"> 
 							<span>
 						 08185956620</span></p>
 						<p class="footer-description-detail">
-							<img src="./assets/img/mail.svg" class="footer-description-icon" alt="star hotels email">
+							<img src="{% static 'img/mail.svg' %}" class="footer-description-icon" alt="star hotels email">
 							<span>support@starhotels.com</span> </p>
 					</div>
 					<div class="footer-follow-us">
@@ -172,17 +172,17 @@
 						<ul class="footer-follow-us-lists">
 							<li class="follow-us-list">
 								<a href="">
-									<img src="./assets/img/facebook.svg" alt="star hotels facebook page">
+									<img src="{% static 'img/facebook.svg' %}" alt="star hotels facebook page">
 								</a>
 							</li>
 							<li class="follow-us-list">
 								<a href="">
-									<img src="./assets/img/twitter.svg" alt="star hotels twitter page">
+									<img src="{% static 'img/twitter.svg' %}" alt="star hotels twitter page">
 								</a>
 							</li>
 							<li class="follow-us-list">
 								<a href="">
-									<img src="./assets/img/instagram.svg" alt="star hotels instagram page">
+									<img src="{% static 'img/instagram.svg' %}" alt="star hotels instagram page">
 								</a>
 							</li>
 						</ul>
@@ -190,6 +190,6 @@
 				</nav>
 			</div>
 		</footer>
-		<script src="assets/js/toggleHamburger.js"></script>
+		<script src="{% static 'js/toggleHamburger.js' %}"></script>
 	</body>
 </html>

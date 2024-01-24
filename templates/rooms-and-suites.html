@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Star Hotels - Rooms and Suites</title>
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./assets/css/global-header.css">
-	<link rel="stylesheet" href="./assets/css/global-footer.css">
-	<link rel="stylesheet" href="./assets/css/rooms-and-suites.css">
-	<link rel="shortcut icon" href="./assets/img/favicon.webp" type="image/x-icon">
+	<link rel="stylesheet" href="{% static 'css/global-header.css' %}">
+	<link rel="stylesheet" href="{% static 'css/global-footer.css' %}">
+	<link rel="stylesheet" href="{% static 'css/rooms-and-suites.css' %}">
+	<link rel="shortcut icon" href="{% static 'img/favicon.webp' %}" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -57,16 +57,16 @@
             <section class="special-offers">
                 <div class="row center-lg">
                     <div class="col image-col right-marg">
-                        <img src="assets/img/hotel-1.webp" alt="room-image" class="small-image">
-                        <img src="assets/img/hotel-2.webp" alt="room-image" class="small-image">
-                        <img src="assets/img/hotel-3.webp" alt="room-image" class="small-image">
+                        <img src="{% static 'img/hotel-1.webp' %}" alt="room-image" class="small-image">
+                        <img src="{% static 'img/hotel-2.webp' %}" alt="room-image" class="small-image">
+                        <img src="{% static 'img/hotel-3.webp' %}" alt="room-image" class="small-image">
                         <div class="side-by-side-container">
                             <div class="large-image-container">
-                                <img src="assets/img/hotel-4-large.webp" alt="room-image-large" class="large-image">
+                                <img src="{% static 'img/hotel-4-large.webp' %}" alt="room-image-large" class="large-image">
                             </div>
                             <section class="stacked-image-container">
-                              <div><img src="assets/img/hotel-5.webp" alt="room-image" class="small-image"></div>
-                              <div><img src="assets/img/hotel-6.webp" alt="room-image" class="small-image"></div>
+                              <div><img src="{% static 'img/hotel-5.webp' %}" alt="room-image" class="small-image"></div>
+                              <div><img src="{% static 'img/hotel-6.webp' %}" alt="room-image" class="small-image"></div>
                             </section>
                         </div>
                     </div>
@@ -78,19 +78,19 @@
                         <ul class="offers-list">
                             <li>
                                 <div>
-                                    <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                    <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                     <p class="list-text">Free Wi-Fi Service</p>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                    <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                     <p class="list-text">Best Rate Guarantee</p>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                    <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                     <p class="list-text">Free DSTV Access</p>
                                 </div>
                             </li>
@@ -121,11 +121,11 @@
                         <p class="room-text">Designed specifically for Practicality and <br> comfort</p>
                         <div>
                             <div class="details-container">
-                                <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                 <p class="list-text">2 Persons</p>
                             </div>
                             <div class="details-container">
-                                <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                 <p class="list-text">1 Kingsize bed</p>
                             </div>
                         </div>
@@ -142,11 +142,11 @@
                         <p class="room-text">Designed specifically for Practicality and <br> comfort</p>
                         <div>
                             <div class="details-container">
-                                <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                 <p class="list-text">2 Persons</p>
                             </div>
                             <div class="details-container">
-                                <img src="assets/img/bed.png" alt="tick" class="list-icon">
+                                <img src="{% static 'img/bed.png' %}" alt="tick" class="list-icon">
                                 <p class="list-text">1 Kingsize bed</p>
                             </div>
                         </div>
@@ -163,11 +163,11 @@
                         <p class="room-text">Designed specifically for Practicality and <br> comfort</p>
                         <div>
                             <div class="details-container">
-                                <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                 <p class="list-text">2 Persons</p>
                             </div>
                             <div class="details-container">
-                                <img src="assets/img/bed.png" alt="tick" class="list-icon">
+                                <img src="{% static 'img/bed.png' %}" alt="tick" class="list-icon">
                                 <p class="list-text">1 Kingsize bed</p>
                             </div>
                         </div>
@@ -184,11 +184,11 @@
                         <p class="room-text">Designed specifically for Practicality and <br> comfort</p>
                         <div>
                             <div class="details-container">
-                                <img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+                                <img src="{% static 'img/check-square.svg' %}" alt="tick" class="list-icon">
                                 <p class="list-text">2 Persons</p>
                             </div>
                             <div class="details-container">
-                                <img src="assets/img/bed.png" alt="tick" class="list-icon">
+                                <img src="{% static 'img/bed.png' %}" alt="tick" class="list-icon">
                                 <p class="list-text">1 Kingsize bed</p>
                             </div>
                         </div>
@@ -214,15 +214,15 @@
 				<div class="footer-contact-us">
 					<h3 class="footer-description-title">Contact Us</h3>
 					<p class="footer-description-detail"> 
-						<img src="./assets/img/map-pin.svg" class="footer-description-icon" alt="star hotel location">
+						<img src="{% static 'img/map-pin.svg' %}" class="footer-description-icon" alt="star hotel location">
 
 						<span>23, Fola Osibo, Lekki Phase 1</span></p>
 					<p class="footer-description-detail">
-						<img src="./assets/img/phone.svg" class="footer-description-icon" alt="star hotels phone number"> 
+						<img src="{% static 'img/phone.svg' %}" class="footer-description-icon" alt="star hotels phone number"> 
 						<span>
 					 08185956620</span></p>
 					<p class="footer-description-detail">
-						<img src="./assets/img/mail.svg" class="footer-description-icon" alt="star hotels email">
+						<img src="{% static 'img/mail.svg' %}" class="footer-description-icon" alt="star hotels email">
 						<span>support@starhotels.com</span> </p>
 				</div>
 				<div class="footer-follow-us">
@@ -230,17 +230,17 @@
 					<ul class="footer-follow-us-lists">
 						<li class="follow-us-list">
 							<a href="">
-								<img src="./assets/img/facebook.svg" alt="star hotels facebook page">
+								<img src="{% static 'img/facebook.svg' %}" alt="star hotels facebook page">
 							</a>
 						</li>
 						<li class="follow-us-list">
 							<a href="">
-								<img src="./assets/img/twitter.svg" alt="star hotels twitter page">
+								<img src="{% static 'img/twitter.svg' %}" alt="star hotels twitter page">
 							</a>
 						</li>
 						<li class="follow-us-list">
 							<a href="">
-								<img src="./assets/img/instagram.svg" alt="star hotels instagram page">
+								<img src="{% static 'img/instagram.svg' %}" alt="star hotels instagram page">
 							</a>
 						</li>
 					</ul>
@@ -248,8 +248,8 @@
 			</nav>
 		</div>
 	</footer>
-    <script src="assets/js/switchRooms.js"></script>
-    <script src="assets/js/toggleHamburger.js"></script>
+    <script src="{% static 'js/switchRooms.js' %}"></script>
+    <script src="{% static 'js/toggleHamburger.js' %}"></script>
 </body>
 
 </html>
