@@ -20,3 +20,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+from hotelapp.models import Booking
+
+# สร้าง Booking object
+booking = Booking.objects.create(name='John Doe', email='john@example.com', phone_number='123456789', check_in_date='2024-01-01', check_out_date='2024-01-05', room_type='Single')
