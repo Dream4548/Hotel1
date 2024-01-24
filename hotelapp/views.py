@@ -4,8 +4,11 @@ from django.shortcuts import render,HttpResponse
 def index(request):
     return render (request,'index.html')
 
-def about(request):
-    return render('about.html')
+def room(request):
+    return render(request,'room.html')
 
 def contact(request):
-    return render('contact.html')
+    return render(request,'contact.html')
+
+def fa(request):
+    return render(request,'fa.html')

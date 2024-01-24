@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -28,25 +29,25 @@
 			<div class="header-container">
 				<nav class="header-nav-bar">
 					<div class="header-nav-logo">
-						<a href="index.html">
+						<a href="{% url 'index' %}">
 							<img src="https://res.cloudinary.com/joshuafolorunsho/image/upload/v1591615159/star_hotels_logo.png"
 								alt="star hotels logo">
 						</a>
 					</div>
 					<ul class="header-nav-lists">
 						<li class="header-nav-list">
-							<a class="header-nav-link" href="index.html">Home</a>
+							<a class="header-nav-link" href="{% url 'index' %}">Home</a>
 						</li>
 						<li class="header-nav-list">
-							<a class="header-nav-link" href="rooms-and-suites.html"
+							<a class="header-nav-link" href="{% url 'room' %}"
 								>Rooms and Suites</a
 							>
 						</li>
 						<li class="header-nav-list">
-							<a class="header-nav-link" href="facilities.html">Facilities</a>
+							<a class="header-nav-link" href="{% url 'fa' %}">Facilities</a>
 						</li>
 						<li class="header-nav-list">
-							<a class="header-nav-link header-active" href="contact-page.html"
+							<a class="header-nav-link header-active" href="{% url 'contact' %}"
 								>Contact Us</a
 							>
 						</li>
